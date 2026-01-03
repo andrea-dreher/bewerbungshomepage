@@ -41,3 +41,21 @@ footer {
     font-size: 0.9em;
     color: #666;
 }
+
+nav {
+    background-color: #374151;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+

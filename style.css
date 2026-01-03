@@ -2,6 +2,7 @@
     --primary-color: #be185d;   /* Rosa / Pink */
     --secondary-color: #9d174d; /* dunkleres Rosa */
     --background-color: #fdf2f8;
+    --section-bg: #fde8f2;      /* leichtes Rosa für Sections */
     --text-color: #333333;
 }
 
@@ -28,7 +29,7 @@ main {
 }
 
 section {
-    background-color: #ffffff;
+    background-color: var(--section-bg);
     padding: 30px;
     margin-bottom: 30px;
     border-radius: 8px;
@@ -50,7 +51,7 @@ footer {
 }
 
 nav {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     padding: 10px 20px;
     text-align: center;
 }
@@ -65,4 +66,3 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
-

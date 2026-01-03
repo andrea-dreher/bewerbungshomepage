@@ -1,3 +1,10 @@
+:root {
+    --primary-color: #be185d;   /* Rosa / Pink */
+    --secondary-color: #9d174d; /* dunkleres Rosa */
+    --background-color: #fdf2f8;
+    --text-color: #333333;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
